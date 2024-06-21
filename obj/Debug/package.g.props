@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <PropertyGroup>
+    <PackageJsonName Condition="$(PackageJsonName) == ''">constructionlandingpage</PackageJsonName>
+    <PackageJsonVersion Condition="$(PackageJsonVersion) == ''">1.0.0</PackageJsonVersion>
+    <PackageJsonPrivate Condition="$(PackageJsonPrivate) == ''">true</PackageJsonPrivate>
+    <PackageJsonDependenciesBootstrap Condition="$(PackageJsonDependenciesBootstrap) == ''">^5.2.0</PackageJsonDependenciesBootstrap>
+    <PackageJsonDependenciesReact Condition="$(PackageJsonDependenciesReact) == ''">^18.0.0</PackageJsonDependenciesReact>
+    <PackageJsonDependenciesReactDom Condition="$(PackageJsonDependenciesReactDom) == ''">^18.0.0</PackageJsonDependenciesReactDom>
+    <PackageJsonDependenciesReactScripts Condition="$(PackageJsonDependenciesReactScripts) == ''">5.0.1</PackageJsonDependenciesReactScripts>
+    <PackageJsonDevdependenciesBabelCore Condition="$(PackageJsonDevdependenciesBabelCore) == ''">^7.17.12</PackageJsonDevdependenciesBabelCore>
+    <PackageJsonDevdependenciesBabelEslintParser Condition="$(PackageJsonDevdependenciesBabelEslintParser) == ''">^7.17.12</PackageJsonDevdependenciesBabelEslintParser>
+    <PackageJsonDevdependenciesBabelPluginProposalPrivatePropertyInObject Condition="$(PackageJsonDevdependenciesBabelPluginProposalPrivatePropertyInObject) == ''">^7.21.11</PackageJsonDevdependenciesBabelPluginProposalPrivatePropertyInObject>
+    <PackageJsonDevdependenciesBabelPresetEnv Condition="$(PackageJsonDevdependenciesBabelPresetEnv) == ''">^7.17.12</PackageJsonDevdependenciesBabelPresetEnv>
+    <PackageJsonDevdependenciesBabelPresetReact Condition="$(PackageJsonDevdependenciesBabelPresetReact) == ''">^7.17.12</PackageJsonDevdependenciesBabelPresetReact>
+    <PackageJsonDevdependenciesEslint Condition="$(PackageJsonDevdependenciesEslint) == ''">^8.0.0</PackageJsonDevdependenciesEslint>
+    <PackageJsonDevdependenciesEslintPluginJsxA11y Condition="$(PackageJsonDevdependenciesEslintPluginJsxA11y) == ''">^6.0.0</PackageJsonDevdependenciesEslintPluginJsxA11y>
+    <PackageJsonDevdependenciesEslintPluginReact Condition="$(PackageJsonDevdependenciesEslintPluginReact) == ''">^7.0.0</PackageJsonDevdependenciesEslintPluginReact>
+    <PackageJsonDevdependenciesEslintPluginReactHooks Condition="$(PackageJsonDevdependenciesEslintPluginReactHooks) == ''">^4.0.0</PackageJsonDevdependenciesEslintPluginReactHooks>
+    <PackageJsonScriptsStart Condition="$(PackageJsonScriptsStart) == ''">react-scripts start</PackageJsonScriptsStart>
+    <PackageJsonScriptsBuild Condition="$(PackageJsonScriptsBuild) == ''">react-scripts build</PackageJsonScriptsBuild>
+    <PackageJsonScriptsTest Condition="$(PackageJsonScriptsTest) == ''">react-scripts test</PackageJsonScriptsTest>
+    <PackageJsonScriptsEject Condition="$(PackageJsonScriptsEject) == ''">react-scripts eject</PackageJsonScriptsEject>
+    <PackageJsonScriptsLint Condition="$(PackageJsonScriptsLint) == ''">eslint src/**/*.js</PackageJsonScriptsLint>
+    <PackageJsonScriptsLintFix Condition="$(PackageJsonScriptsLintFix) == ''">eslint src/**/*.js --fix</PackageJsonScriptsLintFix>
+    <PackageJsonEslintconfigExtends Condition="$(PackageJsonEslintconfigExtends) == ''">[
+  "react-app",
+  "eslint:recommended"
+]</PackageJsonEslintconfigExtends>
+    <PackageJsonEslintconfigRulesSemi Condition="$(PackageJsonEslintconfigRulesSemi) == ''">[
+  "error",
+  "always"
+]</PackageJsonEslintconfigRulesSemi>
+    <PackageJsonEslintconfigRulesQuotes Condition="$(PackageJsonEslintconfigRulesQuotes) == ''">[
+  "error",
+  "double"
+]</PackageJsonEslintconfigRulesQuotes>
+    <PackageJsonBrowserslistProduction Condition="$(PackageJsonBrowserslistProduction) == ''">[
+  "\u003E0.2%",
+  "not dead",
+  "not op_mini all"
+]</PackageJsonBrowserslistProduction>
+    <PackageJsonBrowserslistDevelopment Condition="$(PackageJsonBrowserslistDevelopment) == ''">[
+  "last 1 chrome version",
+  "last 1 firefox version",
+  "last 1 safari version"
+]</PackageJsonBrowserslistDevelopment>
+  </PropertyGroup>
+</Project>
