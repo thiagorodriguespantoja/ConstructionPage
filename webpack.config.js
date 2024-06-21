@@ -1,5 +1,4 @@
 const HtmlWebpackPlugin = require("html-webpack-plugin");
-const HtmlMinifierPlugin = require("html-minifier-terser");
 
 module.exports = {
     // Outras configurações do webpack...

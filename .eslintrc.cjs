@@ -10,11 +10,12 @@ module.exports = {
     },
     env: {
         browser: true,
+        node: true, // Adicione esta linha para reconhecer o ambiente Node.js
         es2021: true
     },
     settings: {
         react: {
-            version: "detect" // Detecta automaticamente a versão do React
+            version: "detect"
         }
     },
     extends: [
